@@ -19,7 +19,7 @@ services:
       PERSISTENCE_DATA_PATH: '/var/lib/weaviate'
       ENABLE_MODULES: 'text2vec-ollama,generative-ollama,text2vec-google,generative-google'
       DEFAULT_VECTORIZER_MODULE: 'text2vec-google'
-      GOOGLE_API_KEY: '${AIzaSyCWik5LeAO0WnChmqjGsiVlekNLQG2DY6A}'
+      GOOGLE_API_KEY: '${xyz}'
       CLUSTER_HOSTNAME: 'node1'
       OLLAMA_API_ENDPOINT: 'http://ollama:11434'
     depends_on:
